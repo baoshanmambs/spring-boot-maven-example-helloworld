@@ -34,7 +34,7 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>central</id>
+            <id>release</id>
             <name>99e9e19256fd-releases</name>
             <url>http://173.208.190.138:80/artifactory/libs-release-local</url>
         </repository>
