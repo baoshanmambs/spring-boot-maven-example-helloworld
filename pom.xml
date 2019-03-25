@@ -13,16 +13,7 @@
 
     <properties>
         <java.version>1.7</java.version>
-    </properties>
-
-    <distributionManagement>
-      <repository>
-        <id>release</id>
-        <name>libs-release</name>
-        <url>http://173.208.190.138:80/artifactory/libs-release</url>
-     </repository>
-    </distributionManagement>
-    
+    </properties> 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,6 +32,13 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+      <repository>
+        <id>release</id>
+        <name>libs-release</name>
+        <url>http://173.208.190.138:80/artifactory/libs-release</url>
+     </repository>
+    </distributionManagement>
     <build>
         <plugins>
             <plugin>
